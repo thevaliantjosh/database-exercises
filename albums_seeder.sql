@@ -22,6 +22,8 @@ INSERT INTO albums (artist, album_name, release_date, sales, genre) VALUES ('Mic
 ('Michael Jackson', 'Dangerous', 1991, 17, 'New jack swing, R&B, pop'),
 ('The Beatles', 'Abbey Road', 1969, 16.9, 'Rock');
 
+INSERT INTO albums(artist, album_name, release_date, sales, genre) VALUES ('Bob Marley & The Wailers', 'Legend: The Best of Bob Marley & The Wailers', 1984, 22.9, 'Reggae');
+
 
 
 
