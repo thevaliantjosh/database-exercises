@@ -28,3 +28,9 @@ SELECT * FROM employees WHERE last_name LIKE 'E%E' ORDER BY last_name, emp_no;
 /*Finding all employees with 'q' in their last name but no 'qu'
   547 rows*/
 SELECT * FROM employees WHERE last_name NOT LIKE '%QU%' AND last_name LIKE '%Q%' ORDER BY last_name, emp_no;
+
+##Order by
+
+SELECT * FROM employees WHERE birth_date LIKE '1954-01-%' ORDER BY birth_date;
+
+SELECT * FROM employees WHERE birth_date LIKE '1954-01-%' ORDER BY birth_date, last_name;
