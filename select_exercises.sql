@@ -7,7 +7,7 @@ Which albums were released in the 1990s
 Which albums had less than 20 million certified sales
 All the albums with a genre of "Rock". Why do these query results not include albums with a genre of "Hard rock" or "Progressive rock"?*/
 
-
+#Name of all albums by Pink Floyd
 SELECT artist, album_name AS 'The name of all albums by Pink Floyd' FROM albums WHERE artist = 'Pink Floyd';
 
 SELECT release_date AS 'The year Sgt.Pepper''s Lonely Hearts Club Band was Released' FROM albums WHERE album_name = 'Sgt.Pepper''s Lonely Hearts Club Band';
